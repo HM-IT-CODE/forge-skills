@@ -1,6 +1,6 @@
 # forge-skills
 
-[![Validate Skills](https://github.com/hmorenosifontes/forge-skills/actions/workflows/validate-skills.yml/badge.svg)](https://github.com/hmorenosifontes/forge-skills/actions/workflows/validate-skills.yml)
+[![Validate Skills](https://github.com/HM-IT-CODE/forge-skills/actions/workflows/validate-skills.yml/badge.svg)](https://github.com/HM-IT-CODE/forge-skills/actions/workflows/validate-skills.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 **Battle-tested [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) for full-stack & systems engineers.**
@@ -30,7 +30,7 @@ Half the collection enforces *good habits*; the other half gives the agent *new 
 
 ```bash
 # 1. Clone
-git clone https://github.com/hmorenosifontes/forge-skills.git
+git clone https://github.com/HM-IT-CODE/forge-skills.git
 cd forge-skills
 
 # 2. Link the skills into your ~/.claude/skills directory
