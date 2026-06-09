@@ -1,0 +1,24 @@
+name: Validate Skills
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Lint SKILL.md frontmatter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run validator
+        run: |
+          chmod +x scripts/validate-skills.sh
+          ./scripts/validate-skills.sh
